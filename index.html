@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anna Ludwik · Pure Glow — чистий корейський догляд</title>
-<meta name="description" content="Чистий, усвідомлений, дієвий корейський догляд. Професійний підбір косметики від Anna Ludwik · Face Expert. Хмельницький.">
+<title>Anna · Pure Glow — чистий, усвідомлений, дієвий корейський догляд</title>
+<meta name="description" content="Чистий, усвідомлений, дієвий корейський догляд. Чесні засоби, що справді працюють. Anna Ludwik · Face Expert, Хмельницький.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<div id="pre"><div class="lg">anna<i>.glow.</i></div></div>
+<div id="pre"><div class="lg">anna<i>.glow.</i></div><span class="bar"></span></div>
 
 <header><div class="wrap">
   <a href="#" class="logo">anna<i>.glow</i></a>
@@ -21,13 +21,16 @@
     <a href="#shop">Магазин</a>
     <a href="#philo">Філософія</a>
     <a href="#transp">Прозорість</a>
+    <a href="#journal">Журнал</a>
     <a href="#contacts">Контакти</a>
   </nav>
   <div class="hicons">
-    <a href="https://www.instagram.com/face_expert_anna" target="_blank">Instagram</a>
+    <a class="t" href="https://www.instagram.com/face_expert_anna" target="_blank">Instagram</a>
     <a class="btn dark" href="#shop" style="padding:10px 20px">Каталог</a>
   </div>
 </div></header>
+
+<div class="strip"><span>Чесно до себе</span><b>·</b><span>дбайливо до природи</span></div>
 
 <!-- hero -->
 <section class="hero"><div class="wrap">
@@ -38,6 +41,7 @@
   <div class="stage">
     <span class="blob"></span>
     <span class="leaf">🌿</span>
+    <span class="dot-orange"></span>
     <img class="portrait" src="img/hero.jpg" alt="Корейський догляд за шкірою">
     <div class="fcard f1"><div class="ic">🧪</div><b>Чисті формули</b><p>Лише перевірені інгредієнти — без сумнівних компонентів.</p></div>
     <div class="fcard f2"><div class="ic">🔍</div><b>Радикальна прозорість</b><p>Жодних таємниць — чесний склад кожного засобу.</p></div>
@@ -48,29 +52,44 @@
 
 <!-- collection 1 -->
 <section class="collection" id="shop">
-  <div class="sh"><span class="k">Дослідіть</span><h2>чисту <span class="serif">силу</span></h2></div>
+  <div class="sh reveal"><span class="k">Дослідіть</span><h2>чисту <span class="serif">силу</span></h2></div>
   <div class="wrap">
-    <div class="edit reveal"><img src="img/close1.jpg" alt="Нанесення крему"></div>
+    <div class="editwrap reveal">
+      <video autoplay muted loop playsinline poster="img/close1.jpg"><source src="img/v_model.mp4" type="video/mp4"></video>
+      <span class="tag">✨ Сяйво шкіри</span>
+    </div>
     <div>
       <div class="coltitle reveal">Сяйво <span class="serif">щодня</span></div>
-      <div class="carousel" id="col1"></div>
+      <div class="carousel reveal" id="col1"></div>
     </div>
   </div>
 </section>
 
 <!-- collection 2 -->
-<section class="collection">
-  <div class="sh"><span class="k">Колекція</span><h2>корейські <span class="serif">ритуали</span></h2></div>
+<section class="collection rev">
+  <div class="sh reveal"><span class="k">Колекція</span><h2>корейські <span class="serif">ритуали</span></h2></div>
   <div class="wrap">
+    <div class="editwrap reveal">
+      <video autoplay muted loop playsinline poster="img/close2.jpg"><source src="img/v_flat.mp4" type="video/mp4"></video>
+      <span class="tag">🌿 Ритуал догляду</span>
+    </div>
     <div>
       <div class="coltitle reveal">Глибоке <span class="serif">живлення</span></div>
-      <div class="carousel" id="col2"></div>
+      <div class="carousel reveal" id="col2"></div>
     </div>
-    <div class="edit reveal"><img src="img/close2.jpg" alt="Корейська косметика"></div>
   </div>
 </section>
 
-<!-- transparency band -->
+<!-- full-width video band -->
+<section class="vband">
+  <video autoplay muted loop playsinline poster="img/hero.jpg"><source src="img/v_cream.mp4" type="video/mp4"></video>
+  <span class="veil"></span>
+  <div class="vc reveal">
+    <h2>Сяйте та будьте здоровими —<br><span class="serif">без зайвих роздумів.</span></h2>
+  </div>
+</section>
+
+<!-- transparency dark -->
 <section class="band" id="transp"><div class="wrap">
   <h2 class="reveal">Радикальна прозорість.<br><span class="serif">Нічого не приховуємо.</span></h2>
   <div class="cols">
@@ -91,6 +110,23 @@
   </div>
 </div></section>
 
+<!-- journal -->
+<section id="journal"><div class="wrap">
+  <div class="sh reveal"><span class="k">Чистий журнал</span><h2>поради <span class="serif">по догляду</span></h2></div>
+  <div class="jgrid">
+    <div class="jcard reveal"><div class="ji"><img src="img/prod6.jpg" alt=""></div><div class="jb"><span class="date">8 лютого 2026</span><h4>Б'юті-секрети світу: ритуали та інгредієнти, які варто спробувати</h4><a class="more" href="https://t.me/kbeauty_profi" target="_blank">Читати →</a></div></div>
+    <div class="jcard reveal"><div class="ji"><img src="img/prod1.jpg" alt=""></div><div class="jb"><span class="date">20 грудня 2025</span><h4>Як ваша рутина догляду впливає на самопочуття</h4><a class="more" href="https://t.me/kbeauty_profi" target="_blank">Читати →</a></div></div>
+    <div class="jcard reveal"><div class="ji"><img src="img/prod3.jpg" alt=""></div><div class="jb"><span class="date">25 січня 2026</span><h4>Як зробити свій догляд більш екологічним</h4><a class="more" href="https://t.me/kbeauty_profi" target="_blank">Читати →</a></div></div>
+  </div>
+</div></section>
+
+<!-- instagram -->
+<section><div class="wrap">
+  <div class="sh reveal"><span class="k">Ми в</span><h2>instagram <span class="serif">@face_expert_anna</span></h2></div>
+  <div class="iggrid reveal" id="iggrid"></div>
+  <div style="text-align:center;margin-top:26px"><a class="btn light" href="https://www.instagram.com/face_expert_anna" target="_blank">Підписатися в Instagram →</a></div>
+</div></section>
+
 <!-- offer -->
 <section class="offer"><div class="wrap"><div class="box reveal">
   <div class="sh" style="margin:0 0 4px"><span class="k">Спеціально для вас</span></div>
@@ -107,10 +143,8 @@
       <p>Чистий, усвідомлений, дієвий корейський догляд. Чесні засоби, що справді працюють. Хмельницький, Україна.</p>
     </div>
     <div><h4>Навігація</h4><ul>
-      <li><a href="#shop">Магазин</a></li>
-      <li><a href="#philo">Філософія</a></li>
-      <li><a href="#transp">Прозорість</a></li>
-      <li><a href="https://t.me/kbeauty_profi" target="_blank">Telegram-канал</a></li>
+      <li><a href="#shop">Магазин</a></li><li><a href="#philo">Філософія</a></li>
+      <li><a href="#transp">Прозорість</a></li><li><a href="#journal">Журнал</a></li>
     </ul></div>
     <div><h4>Контакти</h4><ul>
       <li>📍 м. Хмельницький</li>
@@ -118,15 +152,19 @@
       <li>✈️ <a href="https://t.me/kbeauty_profi" target="_blank">@kbeauty_profi</a></li>
       <li>🕒 За попереднім записом</li>
     </ul></div>
+    <div class="news"><h4>Більше від нас</h4>
+      <p style="margin-bottom:12px">Поради по догляду та новинки — у наш Telegram.</p>
+      <input type="email" placeholder="Ваш e-mail">
+      <a class="btn light" href="https://t.me/kbeauty_profi" target="_blank" style="width:100%;justify-content:center">Підписатися</a>
+    </div>
   </div>
   <div class="copy">
-    <span>© 2026 Anna Ludwik · Pure Glow. Усі права захищено.</span>
+    <span>© 2026 Anna · Pure Glow. Усі права захищено.</span>
     <span>Чистий корейський догляд — чесно та дієво.</span>
   </div>
 </div></footer>
 
-<div class="toast" id="toast" style="position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:13px 22px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;transition:.3s;z-index:200;pointer-events:none"></div>
-
+<div class="toast" id="toast"></div>
 <script src="app.js"></script>
 </body>
 </html>
